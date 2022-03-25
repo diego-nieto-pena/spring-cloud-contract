@@ -1,7 +1,8 @@
 # spring-cloud-contract
 
 Testing microservices is a challenging task, we have two options for testing the service **v1** in the following scenario:
-![scenario](https://github.com/diego-nieto-pena/spring-cloud-contract/img/img_1.png)
+
+![scenario](https://github.com/diego-nieto-pena/spring-cloud-contract/blob/main/img/img_1.png)
 
 ### Option 1 - Deploy all microservices and perform end-to-end tests.
 
@@ -25,7 +26,8 @@ Testing microservices is a challenging task, we have two options for testing the
 
 ## Spring Cloud Contract
 Focused on give a very fast feedback, avoding to setup all the involved microservices, the unique applications needed are those that your application directly uses.
-![stubs](https://github.com/diego-nieto-pena/spring-cloud-contract/img/img_2.png)
+
+![stubs](https://github.com/diego-nieto-pena/spring-cloud-contract/blob/main/img/img_2.png)
 
 Spring Cloud Contract gives you the certainty that the stubs that you use were created by the service that you are calling. Also, if you can use them it means that were also tested against the producer side.
 
