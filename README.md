@@ -33,7 +33,7 @@ Spring Cloud Contract gives you the certainty that the stubs that you use were c
 
 ## The Contract
 
-Consumer servives needs to define exactly what to achieve, a contract is an agreement on how the API communication should look.
+Consumer services needs to define exactly what to achieve, a contract is an agreement on how the API communication should look.
 
 Assume that you want to send a request that contains the ID of a client company and the amount it wants to borrow. The request will be send to the URL **/fraudcheck** by using the **PUT** method.
 
